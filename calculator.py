@@ -1,4 +1,4 @@
-# ********* Functions to calculate****
+# Functions
 def add(a, b):
     return a + b
 
@@ -13,7 +13,7 @@ def mul(a, b):
 
 def div(a, b):
     return a / b
-
+# checks and calls
 while True:
 
     try:
@@ -48,3 +48,4 @@ while True:
         else:
             print(x, "/", y, "=", div(x, y))
     break
+
